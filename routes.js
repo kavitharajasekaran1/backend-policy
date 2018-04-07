@@ -3145,7 +3145,7 @@ logger.fatal('Entering in Calculate Premium....');
 
         } else {
 
-            return failed;
+            return false;
         }
     }
 
