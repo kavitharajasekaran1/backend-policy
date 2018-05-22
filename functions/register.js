@@ -22,7 +22,7 @@ exports.registerUser = (phonetosend, otp) => new Promise((resolve, reject) => {
 
             if (err.code == 11000) {
 
-               resolve({status: 200, message: 'User Exist'});
+               resolve({status: 200, message: 'Please Check Your OTP'});
 
             } else {
 
